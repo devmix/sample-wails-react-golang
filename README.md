@@ -28,18 +28,18 @@ This project is a reference example for a technical blog post about building cro
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                   Frontend (React)                   │
-│  hooks/useTodos.ts ──→ Wails bindings ──→ Go API    │
-│  hooks/useNotes.ts                                  │
-│  hooks/useTags.ts                                   │
-├─────────────────────────────────────────────────────┤
-│              Service Layer (internal/app/service)    │
-│  TodoService · NoteService · TagService · AppService│
-├─────────────────────────────────────────────────────┤
-│           Repository Layer (internal/pkg/repository) │
-│     TodoRepo · NoteRepo · TagRepo · SQLite DB       │
-└─────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────┐
+│                  Frontend (React)                     │
+│  hooks/useTodos.ts ──→ Wails bindings ──→ Go API      │
+│  hooks/useNotes.ts                                    │
+│  hooks/useTags.ts                                     │
+├───────────────────────────────────────────────────────┤
+│         Service Layer (internal/app/service)          │
+│  TodoService · NoteService · TagService · AppService  │
+├───────────────────────────────────────────────────────┤
+│       Repository Layer (internal/pkg/repository)      │
+│     TodoRepo · NoteRepo · TagRepo · SQLite DB         │
+└───────────────────────────────────────────────────────┘
 ```
 
 Three-layer architecture:
