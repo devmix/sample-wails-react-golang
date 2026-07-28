@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=sample-wails-react-golang
+Exec=sample-wails-react-golang
+Icon=sample-wails-react-golang
+Categories=Development;
+Terminal=false
+Keywords=wails
+Version=1.0
+StartupNotify=false

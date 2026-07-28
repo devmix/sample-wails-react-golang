@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=My Product
+Comment=A sample-wails-react-golang application
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/sample-wails-react-golang %u
+Terminal=false
+Type=Application
+Icon=sample-wails-react-golang
+Categories=Utility;
+StartupWMClass=sample-wails-react-golang
+
+ 
