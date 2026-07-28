@@ -5,7 +5,7 @@ A desktop application built with **Wails v3**, **React 19** and **SQLite**. Demo
 This project is a reference example for a technical blog post about building cross-platform desktop apps with Wails v3.
 
 > [!NOTE]
-> Blog article link coming soon.
+> https://www.tekblueprint.org/blog/dev/guide-wails-react-golang/.
 
 ## Features
 
